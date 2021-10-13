@@ -1,0 +1,60 @@
+.container {
+  background-color: #172329;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 3.5rem 1rem 0%;
+}
+
+.container div > h2 {
+  font-size: 3rem;
+  line-height: 1;
+  margin: 0;
+  font-weight: 400;
+}
+
+.container div > h3 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  margin: 0;
+  font-weight: 500;
+}
+
+.text,
+.text_1,
+.text_3,
+.grid_box {
+  font-size: 1rem;
+}
+
+.head_2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.text {
+  margin-top: 2.5rem;
+}
+.text_1,
+.link {
+  margin-top: 2rem;
+}
+.text_align {
+  margin-bottom: 2.5rem;
+}
+
+.grid_box {
+  margin: auto;
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+  margin-bottom: 1.25rem;
+}
+
+.link {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.link:hover {
+  text-decoration: none;
+}
